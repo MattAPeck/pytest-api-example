@@ -6,7 +6,7 @@ pet = {
             "type": "integer"
         },
         "name": {
-            "type": "integer"
+            "type": "string"
         },
         "type": {
             "type": "string",
@@ -18,3 +18,17 @@ pet = {
         },
     }
 }
+
+order = {
+        "type": "object",
+        "required": ["order_id", "pet_id"],
+        "properties": {
+            "id": {
+                "type": "integer"
+            },
+            "name": {
+                "type": "string"
+            }
+    }
+}
+
